@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Details</title>
+</head>
+<body>
+    <form method="POST" action="/update/{{ employee.id }}">
+          <div>
+            <br>
+            <p>Update Details</p>
+        </div>
+
+            <div>
+                <p>Employee Id:</p>
+            
+              <div>
+                <input type = 'text' name ='eid' value="{{employee.eid}}"></div>
+            </div>  
+            </div> 
+
+    </form>
+    {% csrf_token %}
+    
+</body>
+</html>
