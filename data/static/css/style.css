@@ -1,0 +1,22 @@
+body{
+    background-color: #eee;
+    height: 100%;
+    margin: 25px, 0;
+    padding-left: 300px;
+}
+table, th, td{
+    border: 3px solid #fff;
+}
+tr:hover{
+    background-color: yellow;
+}
+th{
+    background-color: #04AA6D;
+    color: #fff;
+}
+button{
+    border-radius: 12px;
+    color:aqua;
+    background-color: #fff;
+    cursor:pointer;
+}
